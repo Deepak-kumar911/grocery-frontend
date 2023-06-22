@@ -14,7 +14,7 @@ import { orderProducts } from '../services/utilites';
 import { toast } from 'react-toastify';
 
 
-export const Home = () => {
+export const Home = () =>{
     const context = useContext(mainContext)
     const [loading, setLoading] = useState(true);
     const [products, setProducts] = useState([])
