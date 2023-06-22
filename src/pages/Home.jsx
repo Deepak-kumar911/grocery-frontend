@@ -30,12 +30,10 @@ export const Home = () =>{
     
     
     useEffect(() => {
-        async function fetch() {
+       async   function fetch() {
             const res = await getAllProducts()
             const result = await allCategory()
-            // console.log(res,"response");
             if (Array.isArray(res) && Array.isArray(result)) {
-                // console.log(res,"result");
                 setProducts([...res])
                 setCategories([...result])
                 setLoading(false)
