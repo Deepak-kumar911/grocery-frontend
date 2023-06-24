@@ -1,6 +1,8 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
-const BackendUrl = "https://grocery-backend-olive.vercel.app"
+// const BackendUrl = "https://grocery-backend-olive.vercel.app"
+const BackendUrl = "http://localhost:5000"
+
 
 
 const allCategory =async ()=>{

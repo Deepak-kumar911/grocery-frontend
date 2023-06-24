@@ -43,7 +43,7 @@ export const CreateProduct = () => {
     }
     
     return (
-        <div className='flex flex-col justify-center items-center h-[80vh] w-[90%] md:w-[25%] mx-auto'>
+        <div className='flex flex-col justify-center items-center h-[80vh] w-[90%] md:w-[40%] mx-auto'>
             {loading ? <TailSpin height="80" width="80" color='#4fa94d' ariaLabel='tail-spin-loading' radius="1" wrapperStyle={{}} wrapperClass='' visible={true}/> 
             : <div className='h-fit w-[100%]'>
                 <h3 className='text-xl text-indigo-600 mb-3 font-semibold'>Create New Product</h3>

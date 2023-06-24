@@ -164,7 +164,7 @@ export const Home = () =>{
 
 
     return (
-        <div className='flex flex-col  justify-center items-center  w-[90%]  mx-auto'>
+        <div className='flex flex-col  justify-center items-center overflow-auto  w-[90%]  mx-auto'>
             {loading ? <div className='h-[90vh] flex flex-col justify-center items-center'> <TailSpin height="80" width="80" color='#4fa94d' ariaLabel='tail-spin-loading' radius="1" wrapperStyle={{}} wrapperClass='' visible={true} /></div>
                 : <div className='w-[100%] '>
                     <div className='relative'>
@@ -177,7 +177,7 @@ export const Home = () =>{
                                 </div>
                             </div>
                         </div>
-                        <div className={`${toggleFilter ? 'absolute right-0 z-40 bg-indigo-500 p-3 rounded-md w-[30%]' : "hidden"}`}>
+                        <div className={`${toggleFilter ? 'absolute right-0 z-40 bg-indigo-500 p-3 rounded-md w-full md:w-[30%]' : "hidden"}`}>
                             <div className='flex flex-col gap-y-3'>
                                 <div className='flex justify-between w-[100%]'>
                                     <h2>Category:</h2>
