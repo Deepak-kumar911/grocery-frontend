@@ -1,5 +1,5 @@
 import { Header } from '../components/header';
-import { Navbar } from '../components/navbar';
+import { Navbar } from '../components/Navbar';
 import { useAppContext } from './context';
 
 export function AppContent({children}){
